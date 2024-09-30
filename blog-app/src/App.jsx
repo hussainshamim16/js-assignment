@@ -1,10 +1,10 @@
 import React from 'react'
-import ResponsiveAppBar from './components/Nav'
+import BasicExample from './components/Nav'
 
 const App = () => {
   return (
     <div>
-      <ResponsiveAppBar/>
+      <BasicExample/>
     </div>
   )
 }

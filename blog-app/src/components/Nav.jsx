@@ -1,14 +1,24 @@
-import * as React from 'react';
-import Button from '@mui/material/Button';
-// import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-
-
-export default function DisableElevation() {
+function BasicExample() {
   return (
-    <Button variant="contained" disableElevation>
-      Disable elevation
-      {/* <AccessAlarm color="secondary" /> */}
-    </Button>
+    <Navbar expand="lg" className=" py-3 px-2">
+      <Container>
+        <Navbar.Brand href="#home">Mr.Bloger</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#home">Login</Nav.Link>
+            <Nav.Link href="#home">Sign up</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
+
+export default BasicExample;

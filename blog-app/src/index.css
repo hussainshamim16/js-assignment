@@ -1,0 +1,12 @@
+:root{
+    --Bluedark : #272343;
+    --white : #ffffff;
+    --skyLight : #e3f6f5;
+    --asmaani : #bae8e8;
+
+}
+
+nav{
+    background-color: var(--asmaani);
+
+}
